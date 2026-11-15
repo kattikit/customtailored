@@ -1,0 +1,185 @@
+[gd_scene format=3 uid="uid://ddxs6y7kx2fvn"]
+
+[ext_resource type="Script" uid="uid://s1x72cgubntg" path="res://main.gd" id="1_oq3xt"]
+[ext_resource type="FontFile" uid="uid://dnoj5p27ucngo" path="res://PixelPurl.ttf" id="2_qjjrk"]
+[ext_resource type="Script" uid="uid://8inyks0qagvw" path="res://label.gd" id="2_xaprj"]
+[ext_resource type="Script" uid="uid://ca37246oah063" path="res://label_12.gd" id="4_keyo3"]
+[ext_resource type="Script" uid="uid://duq63aqh5rojp" path="res://button.gd" id="5_y1mhp"]
+
+[sub_resource type="Theme" id="Theme_w1844"]
+default_font = ExtResource("2_qjjrk")
+default_font_size = 42
+
+[node name="level" type="Node2D" unique_id=113276385]
+script = ExtResource("1_oq3xt")
+
+[node name="Label" type="Label" parent="." unique_id=1806862405]
+top_level = true
+custom_minimum_size = Vector2(900, 900)
+offset_left = 1000.0
+offset_right = 1900.0
+offset_bottom = 900.0
+rotation = 0.0022853538
+theme_override_fonts/font = ExtResource("2_qjjrk")
+theme_override_font_sizes/font_size = 72
+script = ExtResource("2_xaprj")
+
+[node name="Label2" type="Label" parent="." unique_id=1729700359]
+custom_minimum_size = Vector2(100, 100)
+custom_maximum_size = Vector2(100, 100)
+offset_left = 1000.0
+offset_top = 300.0
+offset_right = 1100.0
+offset_bottom = 400.0
+theme_override_fonts/font = ExtResource("2_qjjrk")
+theme_override_font_sizes/font_size = 48
+text = "1"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Label3" type="Label" parent="." unique_id=1981230993]
+custom_minimum_size = Vector2(100, 100)
+custom_maximum_size = Vector2(100, 100)
+offset_left = 1600.0
+offset_top = 300.0
+offset_right = 1700.0
+offset_bottom = 400.0
+theme_override_fonts/font = ExtResource("2_qjjrk")
+theme_override_font_sizes/font_size = 48
+text = "2"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Label4" type="Label" parent="." unique_id=315721341]
+custom_minimum_size = Vector2(100, 100)
+custom_maximum_size = Vector2(100, 100)
+offset_left = 1000.0
+offset_top = 500.0
+offset_right = 1100.0
+offset_bottom = 600.0
+theme_override_fonts/font = ExtResource("2_qjjrk")
+theme_override_font_sizes/font_size = 48
+text = "3"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Label5" type="Label" parent="." unique_id=182012433]
+custom_minimum_size = Vector2(100, 100)
+custom_maximum_size = Vector2(100, 100)
+offset_left = 1600.0
+offset_top = 500.0
+offset_right = 1700.0
+offset_bottom = 600.0
+theme_override_fonts/font = ExtResource("2_qjjrk")
+theme_override_font_sizes/font_size = 48
+text = "4"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Label6" type="Label" parent="." unique_id=1002917851]
+custom_minimum_size = Vector2(100, 100)
+custom_maximum_size = Vector2(100, 100)
+offset_left = 1300.0
+offset_top = 500.0
+offset_right = 1400.0
+offset_bottom = 600.0
+theme_override_fonts/font = ExtResource("2_qjjrk")
+theme_override_font_sizes/font_size = 48
+text = "5"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Label7" type="Label" parent="." unique_id=1417126235]
+custom_minimum_size = Vector2(100, 100)
+custom_maximum_size = Vector2(100, 100)
+offset_left = 1100.0
+offset_top = 410.0
+offset_right = 1200.0
+offset_bottom = 510.0
+theme_override_colors/font_color = Color(1, 1, 0.2901961, 1)
+theme_override_fonts/font = ExtResource("2_qjjrk")
+theme_override_font_sizes/font_size = 48
+text = "$20
+"
+horizontal_alignment = 1
+vertical_alignment = 2
+
+[node name="Label8" type="Label" parent="." unique_id=4673667]
+custom_minimum_size = Vector2(100, 100)
+custom_maximum_size = Vector2(100, 100)
+offset_left = 1500.0
+offset_top = 400.0
+offset_right = 1600.0
+offset_bottom = 500.0
+theme_override_colors/font_color = Color(1, 1, 0.2901961, 1)
+theme_override_fonts/font = ExtResource("2_qjjrk")
+theme_override_font_sizes/font_size = 48
+text = "$5"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Label9" type="Label" parent="." unique_id=7314888]
+custom_minimum_size = Vector2(100, 100)
+custom_maximum_size = Vector2(100, 100)
+offset_left = 1500.0
+offset_top = 600.0
+offset_right = 1600.0
+offset_bottom = 700.0
+theme_override_colors/font_color = Color(1, 1, 0.2901961, 1)
+theme_override_fonts/font = ExtResource("2_qjjrk")
+theme_override_font_sizes/font_size = 48
+text = "$1"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Label10" type="Label" parent="." unique_id=1749310561]
+custom_minimum_size = Vector2(100, 100)
+custom_maximum_size = Vector2(100, 100)
+offset_left = 1100.0
+offset_top = 610.0
+offset_right = 1200.0
+offset_bottom = 710.0
+theme_override_colors/font_color = Color(1, 1, 0.2901961, 1)
+theme_override_fonts/font = ExtResource("2_qjjrk")
+theme_override_font_sizes/font_size = 48
+text = "$2
+
+"
+horizontal_alignment = 1
+vertical_alignment = 2
+
+[node name="Label11" type="Label" parent="." unique_id=2017731216]
+custom_minimum_size = Vector2(100, 100)
+custom_maximum_size = Vector2(100, 100)
+offset_left = 1300.0
+offset_top = 700.0
+offset_right = 1400.0
+offset_bottom = 800.0
+theme_override_colors/font_color = Color(1, 1, 0.2901961, 1)
+theme_override_fonts/font = ExtResource("2_qjjrk")
+theme_override_font_sizes/font_size = 48
+text = "$10
+
+"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Label12" type="Label" parent="." unique_id=843702]
+offset_left = 1450.0
+offset_top = 50.0
+offset_right = 1567.0
+offset_bottom = 112.0
+theme_override_colors/font_color = Color(1, 1, 0.36078432, 1)
+theme_override_fonts/font = ExtResource("2_qjjrk")
+theme_override_font_sizes/font_size = 72
+text = "Cost:"
+script = ExtResource("4_keyo3")
+
+[node name="Button" type="Button" parent="." unique_id=848195648]
+offset_left = 1150.0
+offset_top = 200.0
+offset_right = 1561.5769
+offset_bottom = 323.0
+theme = SubResource("Theme_w1844")
+keep_pressed_outside = true
+script = ExtResource("5_y1mhp")

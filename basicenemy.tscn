@@ -1,0 +1,25 @@
+[gd_scene format=3 uid="uid://b586h3vcvsih7"]
+
+[ext_resource type="Script" uid="uid://ycgh164xa3tq" path="res://basicenemy.gd" id="1_ldaoe"]
+[ext_resource type="Texture2D" uid="uid://crfnnsip1e8w" path="res://pixil-frame-0 (7).png" id="2_ldaoe"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_w1844"]
+size = Vector2(100, 100)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_mxwsd"]
+
+[node name="basicenemy" type="Area2D" unique_id=263209585 groups=["enemy"]]
+collision_layer = 24
+collision_mask = 24
+script = ExtResource("1_ldaoe")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1017758016 groups=["enemy"]]
+shape = SubResource("RectangleShape2D_w1844")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=2079587910]
+visible = false
+sprite_frames = SubResource("SpriteFrames_mxwsd")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=53025233]
+scale = Vector2(2.27, 2.27)
+texture = ExtResource("2_ldaoe")
